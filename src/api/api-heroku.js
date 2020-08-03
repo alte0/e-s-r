@@ -8,7 +8,7 @@ const Method = {
 
 class ApiHeroku {
     constructor() {
-        this._baseUrl = "http://emphasoft-test-assignment.herokuapp.com";
+        this._baseUrl = "https://emphasoft-test-assignment.herokuapp.com";
     }
 
     _fetchRequest = async ({
